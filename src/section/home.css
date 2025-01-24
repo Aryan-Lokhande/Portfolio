@@ -1,6 +1,6 @@
 .profile-img {
-  width: 26rem;
-  height: 26rem;
+  width:  25rem;
+  height: 25rem;
   border-radius: 50%;
   margin: 0 auto;
   display: block;
@@ -22,11 +22,12 @@
   font-weight: 450;
 }
 .hero-tagline {
+  padding: 10px;
   font-size: 1.4rem;
   color: #b2ebf2;
 }
 .hero-desc {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #e0f7fa;
 }
 .techy-btn {

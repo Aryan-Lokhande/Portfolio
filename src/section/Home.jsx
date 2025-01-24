@@ -24,9 +24,9 @@ function Home() {
                 <i className="fa-solid fa-star" style={{ color: "#ffcc00" }}></i>&nbsp;
                 HackerRank | MERN Stack Developer | Open Source Contributor
               </h4>
-              <p className="hero-desc mt-3">
+              <div className="hero-desc mt-3">
                 Fuelled by coffee, code, and curiosity.
-              </p>
+              </div>
               <a href="#about" className="btn techy-btn mt-3">
                 Explore More
               </a>
