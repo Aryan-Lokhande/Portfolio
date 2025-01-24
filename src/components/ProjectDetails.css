@@ -1,0 +1,179 @@
+/* Body Styling */
+body {
+  font-family: "Orbitron", sans-serif;
+  background: linear-gradient(-45deg, #00bcd4, #006064);
+}
+
+.project-title {
+  color: #b2ebf2; 
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+/* ProjectDetails Container */
+.project-details-container {
+  padding: 20px;
+}
+
+/* Back and Temp Buttons */
+.project-nav-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.project-nav-buttons .MuiButton-root {
+  color: #dfe;
+  border: 1px solid #dfe;
+  transition: all 0.3s ease;
+}
+
+.project-nav-buttons .MuiButton-root:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Section Styling */
+.project-section {
+  padding: 5px 0;
+}
+
+/* Dynamic Images Section */
+.project-images-container {
+  margin-bottom: 30px;
+}
+
+.project-images-container img {
+  width: 100%;
+  object-fit: cover;
+  border: 2px solid #333;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-images-container img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Card Styling */
+.project-details-card {
+  border: 1px solid #ded;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  background: #e0f7fa;
+  border-radius: 12px;
+}
+
+.project-details-card .card-body {
+  padding: 20px;
+}
+
+.project-details-card .card-title {
+  color: #004d40;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.project-details-card .card-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #00796b;
+  text-align: justify;
+}
+
+/* SubPoints Section */
+.project-subpoints h3 {
+  color: #004d40;
+}
+
+.project-subpoints p {
+  font-size: 1rem;
+  color: #00796b;
+  line-height: 1.6;
+}
+
+/* Buttons Inside the Card */
+.project-details-card .btn {
+  background: none;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  font-family: "Orbitron", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.project-details-card .btn:hover {
+  background: #007bff;
+  color: #fff;
+  box-shadow: 0px 0px 10px #007bff;
+}
+
+.project-details-card .btn i {
+  margin-right: 5px;
+}
+
+/* Button Group */
+.project-btn-group {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.project-btn-group .MuiButton-root {
+  /* margin: 5px; */
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.project-btn-group .MuiButton-root:hover {
+  background-color: #004d40;
+  color: #fff;
+  border: 1px solid #1c937f;
+}
+
+/* Active Button Styling */
+.project-btn-group .MuiButton-root.active-btn {
+  background: #004d40; /* Active background */
+  color: #fff;         /* Active text color */
+  box-shadow: 0px 4px 8px rgba(0, 77, 64, 0.5); /* Add a glowing effect */
+  border: 1px solid #004d40;
+  font-weight: bold;
+  transform: scale(1.05); /* Slightly enlarge the active button */
+  transition: all 0.3s ease;
+}
+
+/* Sourec code button  */
+.project-source-buttons .MuiButton-root {
+  background: transparent;
+  color: #006064;
+  border: 2px solid #00bcd4;
+  border-radius: 25px;
+}
+.project-source-buttons .MuiButton-root:hover {
+  background-color: #00bcd4;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .project-section {
+    padding: 20px 0;
+  }
+
+  .project-images-container {
+    margin-bottom: 20px;
+  }
+
+  .project-btn-group {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,20 @@
+/* pop-up div */
+.pop-up {
+  background-color: #fff;   border: 1px solid #ccc;
+  border-radius: 8px; 
+  padding: 20px; 
+  text-align: center;
+  transition: all 0.3s ease; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+
+.pop-up:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+  background-color: #f9f9f9; 
+}
+
+.pop-up:hover * {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+/* pop-up div end */

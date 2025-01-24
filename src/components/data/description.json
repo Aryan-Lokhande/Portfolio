@@ -1,0 +1,30 @@
+{
+  "1": {
+    "title": "Sort Algorithm Visualization",
+    "description": "<p><strong>SortAlgorithm</strong> is a web-based application designed to provide real-time visualizations of popular sorting algorithms such as <b>Merge Sort</b> and <b>Quick Sort</b>.</p>\n  <p>These visualizations make it easier to understand, explore, and learn complex algorithms interactively.</p>\n <p>SortAlgorithm offers an engaging and interactive way to visualize how sorting algorithms work step-by-step. It's especially useful for students, developers, and anyone learning algorithms.</p>",
+    "subPoints": [
+      {
+        "title": "Outcome",
+        "des": "<ul>\n  <li>✅ Users can visualize how sorting algorithms work in real-time.</li>\n  <li>✅ Users can learn about the time complexity of each algorithm.</li>\n  <li>✅ A hands-on approach to deepen understanding of sorting techniques.</li>\n  </ul>"
+      },
+      {
+        "title": "Technologies Used",
+        "des": "<ul>\n  <li>💻 <b>HTML</b>: To structure the content and layout.</li>\n  <li>🎨 <b>CSS</b>: To style the application and make it visually appealing.</li>\n    <li>⚙️ <b>JavaScript</b>: To implement dynamic sorting animations and interactions.</li>\n  </ul>"
+      }
+    ],
+    "codeLink": "https://github.com/Aryan-Lokhande/Sort-Algorithm",
+    "demoLink": "https://aryan-lokhande.github.io/Sort-Algorithm/"
+  },
+  "2": {
+    "title": "API Calls",
+    "description": "",
+    "codeLink": "",
+    "demoLink": ""
+  },
+  "3": {
+    "title": "Mini Projects",
+    "description": "",
+    "codeLink": "",
+    "demoLink": ""
+  }
+}

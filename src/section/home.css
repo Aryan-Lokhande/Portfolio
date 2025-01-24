@@ -1,0 +1,241 @@
+.profile-img {
+  width: 26rem;
+  height: 26rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(45deg, #00bcd4, #006064);
+  color: white;
+  padding: 80px 0;
+}
+.profile-img {
+  border: 5px solid #fff;
+}
+.profile-name {
+  font-family: "Orbitron", sans-serif;
+  color: #00e5ff;
+  letter-spacing: 2px;
+  font-weight: 450;
+}
+.hero-tagline {
+  font-size: 1.4rem;
+  color: #b2ebf2;
+}
+.hero-desc {
+  font-size: 1rem;
+  color: #e0f7fa;
+}
+.techy-btn {
+  background-color: #00e5ff;
+  color: #006064;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 1rem;
+}
+.techy-btn:hover {
+  background-color: #4dd0e1;
+}
+
+/* Introduction Section */
+.introduction-section {
+  background: #e0f7fa;
+  color: #006064;
+  padding: 80px 0;
+}
+.intro-heading {
+  font-family: "Orbitron", sans-serif;
+  color: #00bcd4;
+  font-size: 1.5rem;
+}
+.intro-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  margin-top: 10px;
+  color: #004d40;
+}
+.intro-desc {
+  font-size: 1.2rem;
+  color: #00796b;
+  margin-top: 20px;
+}
+.techy-outline-btn {
+  background: transparent;
+  color: #006064;
+  border: 2px solid #00bcd4;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 1rem;
+}
+.techy-outline-btn:hover {
+  background-color: #00bcd4;
+  color: white;
+}
+
+/* Achievements Section */
+.achievements-section {
+  background: linear-gradient(45deg, #003c5e, #006b84);
+  color: #e0f7fa;
+  /* padding: 80px 0; */
+}
+
+.achievements-heading {
+  font-family: "Orbitron", sans-serif;
+  color: #00e5ff;
+  /* margin-bottom: 40px; */
+}
+
+/* Techy Card Styling */
+.techy-card {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.techy-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 229, 255, 0.5);
+}
+
+.techy-icon {
+  color: #00e5ff;
+}
+
+.techy-card-title {
+  font-family: "Roboto", sans-serif;
+  color: #003c5e;
+  font-size: 1.5rem;
+  /* margin-bottom: 15px; */
+}
+
+.techy-card-text {
+  font-size: 1.5rem;
+  color: #b2ebf2;
+  /* margin-bottom: 10px; */
+}
+
+.techy-btn {
+  background-color: #00e5ff;
+  color: #003c5e;
+  border: none;
+  /* padding: 10px 20px; */
+  border-radius: 25px;
+  font-size: 1rem;
+  /* text-transform: uppercase; */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.techy-btn:hover {
+  background-color: #4dd0e1;
+  color: #001c2b;
+}
+/* Achievements ends */
+
+/* Project component starts  */
+
+.projects-section {
+  background: linear-gradient(45deg, #c8f9fe, #e0f7fa);
+  color: #003c8f;
+  padding: 80px 0;
+}
+
+.projects-section h2 {
+  font-family: "Orbitron", sans-serif;
+  color: #027063;  
+  margin-bottom: 40px;
+  font-weight: 450;
+  text-transform: uppercase;
+}
+
+/* Project Card */
+.project-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 15px;
+}
+
+.project-card:hover .overlay {
+  opacity: 1;
+}
+
+/* Overlay Content */
+.overlay h5 {
+  font-family: "Orbitron", sans-serif;
+  color: #00e5ff;
+  font-size: 1.2rem;
+  margin: 0;
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.overlay h5::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px; /* Adjust the distance of the underline from the text */
+  width: 0;
+  height: 2px;
+  background-color: #00e5ff; /* Color of the underline */
+  transition: width 0.3s ease-in-out;
+}
+
+.overlay h5:hover {
+  color: #ffffff; /* Optional: change color on hover */
+}
+
+.overlay h5:hover::after {
+  width: 100%;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-light {
+  color: #00e5ff;
+  border: 1px solid #00e5ff;
+}
+
+.btn-outline-light:hover {
+  background-color: #00e5ff;
+  color: #003c8f;
+}
+
+/* Spacing */
+.row {
+  row-gap: 30px;
+}
+

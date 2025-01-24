@@ -1,0 +1,113 @@
+/* Navbar Styling */
+.navbar {
+  background-color: #121; /* Dark background */
+  padding: 10px 20px;
+  border-bottom: 2px solid #00e5ff; /* Neon blue border */
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  font-family: "Orbitron", sans-serif; /* Retro-futuristic font */
+}
+
+.navbar-brand {
+  color: #00e5ff; /* Neon blue text */
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #fff; /* White on hover */
+}
+
+.navbar-toggler {
+  border: 2px solid #00e5ff; /* Neon blue border */
+  background-color: transparent;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300e5ff' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280,229,255,1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Neon blue toggler icon */
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #00e5ff; /* Neon blue text */
+  font-size: 1rem;
+  padding: 10px 15px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #fff; /* White on hover */
+  border-bottom: 2px solid #00e5ff; /* Neon blue underline */
+}
+
+/* Active link styling */
+.navbar-nav .nav-item .nav-link.active {
+  color: #fff; /* White for active link */
+  border-bottom: 2px solid #00e5ff; /* Neon blue underline */
+}
+
+/* Responsive Behavior */
+@media (max-width: 992px) {
+  .navbar {
+    border-bottom: none;
+  }
+
+  .navbar-collapse {
+    background-color: #121; /* Same dark background for mobile menu */
+  }
+
+  .nav-item {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+/* Navbar ends  */
+/* quick links started  */
+.quick-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Quick Links Section */
+.quick-links-section {
+  border-top: 2px solid #003c5e;
+  background: linear-gradient(45deg, #003c5e, #006b84);
+  padding: 40px 0;
+  text-align: center;
+}
+
+.quick-links-title {
+  font-family: "Orbitron", sans-serif;
+  font-size: 2rem;
+  color: #00e5ff;
+  margin-bottom: 20px;
+}
+
+.quick-links-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Individual Quick Link */
+.quick-link {
+  display: inline-block;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.quick-link:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 20px rgba(0, 229, 255, 0.6); /* Neon blue glow */
+}
+
+.quick-link-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
+}
