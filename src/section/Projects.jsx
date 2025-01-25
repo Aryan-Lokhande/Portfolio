@@ -22,8 +22,8 @@ const projectsData = [
     id: 3,
     title: "Mini Projects",
     image: miniPro,
-    codeLink: "#",
-    demoLink: "#",
+    codeLink: "https://github.com/Aryan-Lokhande/mini_projects",
+    demoLink: "https://aryan-lokhande.github.io/mini_projects/",
   },
 
 ];
