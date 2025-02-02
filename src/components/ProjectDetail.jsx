@@ -66,14 +66,14 @@ function ProjectDetail() {
           >
             TWO
           </Button>
-          <Button
+          {/* <Button
             value="3"
             className={idx == 3 ? "active-btn" : ""}
             variant={idx == 3 ? "contained" : "outlined"}
             onClick={changeProject}
           >
             Three
-          </Button>
+          </Button> */}
         </ButtonGroup>
       </div>
 

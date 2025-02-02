@@ -13,13 +13,6 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Project 2",
-    image: "",
-    codeLink: "#",
-    demoLink: "#",
-  },
-  {
-    id: 3,
     title: "Mini Projects",
     image: miniPro,
     codeLink: "https://github.com/Aryan-Lokhande/mini_projects",

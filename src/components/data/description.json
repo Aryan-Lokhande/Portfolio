@@ -15,15 +15,25 @@
     "codeLink": "https://github.com/Aryan-Lokhande/Sort-Algorithm",
     "demoLink": "https://aryan-lokhande.github.io/Sort-Algorithm/"
   },
-  "2": {
+  "3": {
     "title": "API Calls",
     "description": "",
     "codeLink": "",
     "demoLink": ""
   },
-  "3": {
+  "2": {
     "title": "Mini Projects",
-    "description": "",
+    "description": "This section showcases two interactive mini-projects: the Simon Game and Tic-Tac-Toe. These projects focus on logic, UI/UX, and JavaScript-driven interactivity.",
+    "subPoints": [
+      {
+        "title": "Simon Game",
+        "des": "A <b>memory-based game</b> where players must repeat an increasing sequence of lights and sounds.<br> Built using HTML, CSS, and JavaScript to enhance user interaction and logic-building."
+      },
+      {
+        "title": "Tic-Tac-Toe",
+        "des": "A classic two-player game simple yet.<br> Developed with JavaScript, featuring a responsive UI and intelligent game logic."
+      }
+    ],
     "codeLink": "https://github.com/Aryan-Lokhande/mini_projects",
     "demoLink": "https://aryan-lokhande.github.io/mini_projects/"
   }
