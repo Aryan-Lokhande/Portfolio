@@ -114,7 +114,7 @@ function ProjectDetail() {
                       ))}
                     </section>
                   )}
-                  <br />
+                  
                   <section className="project-source-buttons">
                     {project.demoLink && (
                       <Button href={project.demoLink} target="_blank">

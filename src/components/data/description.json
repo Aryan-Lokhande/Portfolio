@@ -32,6 +32,9 @@
       {
         "title": "Tic-Tac-Toe",
         "des": "A classic two-player game simple yet.<br> Developed with JavaScript, featuring a responsive UI and intelligent game logic."
+      },
+      {
+        "title":"Give it a try!"
       }
     ],
     "codeLink": "https://github.com/Aryan-Lokhande/mini_projects",

@@ -6,6 +6,56 @@ html {
   color: silver;
 }
 
-p{
+p {
   text-align: justify;
+}
+
+/* 404 Page Styling - Simple Clean Design */
+.error-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(-45deg, #004d66, #006064);
+  color: white;
+  text-align: center;
+}
+
+/* White Heading */
+.error-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* Regular Message Text */
+.error-message {
+  font-size: 1.2rem;
+  color: #d9faff;
+  margin-bottom: 20px;
+}
+
+/* Button Group */
+.error-btn-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Simple Buttons */
+.error-btn {
+  background: rgb(206, 240, 244) !important;
+  color: #004d66 !important;
+  border-radius: 8px !important;
+  font-weight: bold !important;
+  padding: 8px 20px !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+/* Hover Effect */
+.error-btn:hover {
+  background: #acdfe5 !important;
+  color: #002233 !important;
 }
