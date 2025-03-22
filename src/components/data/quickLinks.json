@@ -1,24 +1,29 @@
 {
-   "0": [
-        {
-          "name": "GitHub",
-          "url": "https://github.com/Aryan-Lokhande",
-          "img": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
-        },
-        {
-          "name": "LinkedIn",
-          "url": "https://www.linkedin.com/in/aryan-lokhande-bb429b287",
-          "img": "https://cdn-icons-png.flaticon.com/512/174/174857.png"
-        },
-        {
-          "name": "X",
-          "url": "https://x.com/aryan_lok",
-          "img": "/general/twitter.png"
-        },
-        {
-          "name": "Mail",
-          "url": "mailto:aryanlok619@gmail.com",
-          "img": "https://cdn-icons-png.flaticon.com/512/732/732200.png"
-        }
-      ]
+  "0": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Aryan-Lokhande",
+      "img": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/aryan-lokhande-bb429b287",
+      "img": "https://cdn-icons-png.flaticon.com/512/174/174857.png"
+    },
+    {
+      "name": "Discord",
+      "url": "https://discord.com/users/762684161445986336",
+      "img": "https://cdn-icons-png.flaticon.com/512/2111/2111370.png"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/aryan_lok",
+      "img": "https://cdn-icons-png.flaticon.com/512/733/733579.png"
+    },
+    {
+      "name": "Mail",
+      "url": "mailto:aryanlok619@gmail.com",
+      "img": "https://cdn-icons-png.flaticon.com/512/732/732200.png"
+    }
+  ]
 }
