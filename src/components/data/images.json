@@ -9,6 +9,11 @@
     { "src": "/projImages/ttt-normal.png", "alt": "ttt 1" },
     { "src": "/projImages/ttt-win.png", "alt": "ttt 2" }
   ],
-  "3": []
+  "3": [
+    {
+      "src": "/projImages/todo-list.png","alt": "optimized todo"
+    }
+
+  ]
 }
  

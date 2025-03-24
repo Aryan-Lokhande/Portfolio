@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import sortAlgo from "../assets/Sort_Algorithm.png";
-import miniPro from "../assets/mini_project.png"
+import miniPro from "../assets/mini_project.png";
+import todo from "../assets/todo.png";
 
 const projectsData = [
   {
@@ -17,6 +18,13 @@ const projectsData = [
     image: miniPro,
     codeLink: "https://github.com/Aryan-Lokhande/mini_projects",
     demoLink: "https://aryan-lokhande.github.io/mini_projects/",
+  },
+  {
+    id: 3,
+    title: "Optimize Todo App",
+    image: todo,
+    codeLink: "https://github.com/Aryan-Lokhande/Optimize_to-do-list",
+    demoLink: "https://optimize-to-do-list.vercel.app/",
   },
 
 ];

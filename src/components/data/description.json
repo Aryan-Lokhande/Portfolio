@@ -16,10 +16,16 @@
     "demoLink": "https://aryan-lokhande.github.io/Sort-Algorithm/"
   },
   "3": {
-    "title": "API Calls",
-    "description": "",
-    "codeLink": "",
-    "demoLink": ""
+    "title": "Optimized To-Do List",
+    "description": "<p><strong>Optimized To-Do List</strong> is a lightweight task management application built using <b>NeutralinoJS</b>, offering an efficient alternative to traditional Electron-based apps.</p>\n  <p>With a minimal footprint of just <b>16MB</b>, it provides essential features like <b>adding, deleting, and marking tasks as done</b>, ensuring a simple yet productive user experience.</p>\n <p>Designed for speed and efficiency, this To-Do List reflects our ability to create <b>optimized and performance-driven applications</b> while maintaining a clean and intuitive UI.</p>",
+    "subPoints": [
+      {
+        "title" : "Technologies Used",
+        "des": "<ul>\n  <li>💻 <b>NeutralinoJS</b>: A lightweight alternative to Electron for building cross-platform desktop apps.</li>\n  <li>🎨 <b>HTML</b> and <b>CSS</b>: To structure and style the application.</li>\n    <li>⚙️ <b>JavaScript</b>: To implement dynamic interactions and task management features.</li>\n  </ul>"
+      }
+    ],
+    "codeLink": "https://github.com/Aryan-Lokhande/Optimize_to-do-list",
+    "demoLink": "https://optimize-to-do-list.vercel.app/"
   },
   "2": {
     "title": "Mini Projects",
