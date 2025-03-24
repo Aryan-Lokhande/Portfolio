@@ -29,7 +29,6 @@ function ProjectDetail() {
   }
 
   function changeProject(e) {
-
     setIdx(e.target.value);
   }
 
