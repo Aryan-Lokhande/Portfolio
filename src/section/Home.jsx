@@ -2,14 +2,21 @@ import React from "react";
 import image from "../assets/Aryan.jpg";
 import "./home.css";
 
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"; 
+
 function Home() {
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: true }); // Initialize AOS
+  }, []);
   return (
     <>
       {/* Hero section start */}
       <section id="home" className="hero-section py-5">
         <div className="container text-center">
           <div className="row align-items-center">
-            <div className="col-md-5">
+            <div className="col-md-5" data-aos="fade-right" data-aos-delay="200">
               <br />
               <img
                 src={image}
@@ -17,7 +24,7 @@ function Home() {
                 className="img-fluid rounded-circle shadow-lg profile-img"
               />
             </div>
-            <div className="col-md-7">
+            <div className="col-md-7" data-aos="fade-right" >
               <h1 className="display-4 profile-name">Aryan Lokhande</h1>
               <h4 className="hero-tagline">
                 IT Student | 5&nbsp;
