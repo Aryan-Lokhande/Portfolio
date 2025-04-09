@@ -7,7 +7,13 @@ const achievementsData = [
     description:
       "Achieved a 5-star rating on HackerRank, demonstrating proficiency in problem-solving and coding.",
     icon: "fas fa-star",
-    link: "https://www.hackerrank.com/profile/aryanlok619",
+    link: "https://www.hackerrank.com/profile/aryanlokhande",
+  },
+  {
+    title: "1st Rank - Competitive Coding Contest 2025 by GDGOC",
+    description:
+      "Secured 1st place in a Competitive Programming Contest organized by Google Developer Groups on Campus at AISSMS College of Engineering.",
+    icon: "fas fa-trophy ",
   },
   {
     title: "2nd Rank - Blind and Reverse Coding Hackathon",

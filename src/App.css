@@ -5,6 +5,9 @@ html {
 .medal {
   color: silver;
 }
+.gold-medal {
+  color: gold;
+}
 
 p {
   text-align: justify;

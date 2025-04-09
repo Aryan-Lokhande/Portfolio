@@ -49,18 +49,11 @@ function Home() {
           <h4 className="intro-heading">&lt;Hello World/&gt;</h4>
           <h2 className="intro-title">Welcome to My Portfolio</h2>
           <p className="intro-desc">
-            I am a passionate and dedicated IT student, with a strong foundation
-            in problem-solving and software development. Proficient in C++ for
-            Data Structures and Algorithms, I have honed my skills by solving
-            challenges on platforms like LeetCode & HackerRank. I actively
-            participate in hackathons and enjoy working collaboratively on
-            innovative projects. Also secured the prestigious 2nd&nbsp;
-            <i className="fa-solid fa-medal medal"></i> position in College
-            Tech Fest. Currently, I am preparing for GSoC as my Open Source
-            Contributor goal. My technical toolkit includes expertise in the
-            MERN stack, JavaScript, and machine learning, reflecting my
-            enthusiasm for building impactful solutions.
-          </p>
+  I am a passionate and dedicated IT student with a strong foundation in problem-solving and software development. Proficient in C++ for Data Structures and Algorithms, I have honed my skills by solving challenges on platforms like <b>LeetCode</b> and <b>HackerRank</b>. I actively participate in hackathons and competitive coding contests, securing the prestigious 1st&nbsp;
+  <i className="fa-solid fa-trophy gold-medal"></i> position in <b>Code. Compete. Conquer.</b> hosted by GDGOC at AISSMS COE, and the 2nd&nbsp;
+  <i className="fa-solid fa-medal medal"></i> position in our Sinhgad College Tech Fest <b>TECHTONIC</b>. Currently, I am preparing for <b>GSoC</b> as my open-source contributor goal. My technical toolkit includes expertise in the <b>MERN stack</b>, <b>JavaScript</b>, and <b>Machine Learning</b>, reflecting my enthusiasm for building impactful solutions.
+</p>
+
           <a href="#projects" className="btn techy-outline-btn mt-3">
             View My Work
           </a>
