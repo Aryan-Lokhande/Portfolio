@@ -73,6 +73,14 @@ function ProjectDetail() {
           >
             Three
           </Button>
+          <Button
+            value="4"
+            className={idx == 4 ? "active-btn" : ""}
+            variant={idx == 4 ? "contained" : "outlined"}
+            onClick={changeProject}
+          >
+            Four
+          </Button>
         </ButtonGroup>
       </div>
 
@@ -113,7 +121,7 @@ function ProjectDetail() {
                       ))}
                     </section>
                   )}
-                  
+                  <br />
                   <section className="project-source-buttons">
                     {project.demoLink && (
                       <Button href={project.demoLink} target="_blank">
@@ -126,7 +134,7 @@ function ProjectDetail() {
                       <i className="fas fa-code"></i>
                       &nbsp;&nbsp;View Code
                     </Button>
-                  </section> 
+                  </section>
                 </div>
               </div>
             </div>

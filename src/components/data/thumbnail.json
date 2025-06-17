@@ -1,0 +1,23 @@
+{
+    "1":
+    {
+    "title": "Sort Algorithm Visualization",
+    "image": "/thumbnail/Sort_Algorithm.png",
+    "codeLink": "https://github.com/Aryan-Lokhande/Sort-Algorithm",
+    "demoLink": "https://aryan-lokhande.github.io/Sort-Algorithm/"
+  },
+  "2": 
+  {
+    "title": "AI-Powered Blog-App",
+    "image": "/thumbnail/MindScript_Blog-app.png",
+    "codeLink": "https://github.com/Aryan-Lokhande/MindScript_Blog-app",
+    "demoLink": "https://mind-script-blog-app.vercel.app"
+  },
+   "3" :
+  {
+    "title": "Optimize Todo App",
+    "image": "/thumbnail/todo.png",
+    "codeLink": "https://github.com/Aryan-Lokhande/Optimize_to-do-list",
+    "demoLink": "https://optimize-to-do-list.vercel.app/"
+  }
+}

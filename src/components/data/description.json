@@ -20,14 +20,14 @@
     "description": "<p><strong>Optimized To-Do List</strong> is a lightweight task management application built using <b>NeutralinoJS</b>, offering an efficient alternative to traditional Electron-based apps.</p>\n  <p>With a minimal footprint of just <b>16MB</b>, it provides essential features like <b>adding, deleting, and marking tasks as done</b>, ensuring a simple yet productive user experience.</p>\n <p>Designed for speed and efficiency, this To-Do List reflects our ability to create <b>optimized and performance-driven applications</b> while maintaining a clean and intuitive UI.</p>",
     "subPoints": [
       {
-        "title" : "Technologies Used",
+        "title": "Technologies Used",
         "des": "<ul>\n  <li>💻 <b>NeutralinoJS</b>: A lightweight alternative to Electron for building cross-platform desktop apps.</li>\n  <li>🎨 <b>HTML</b> and <b>CSS</b>: To structure and style the application.</li>\n    <li>⚙️ <b>JavaScript</b>: To implement dynamic interactions and task management features.</li>\n  </ul>"
       }
     ],
     "codeLink": "https://github.com/Aryan-Lokhande/Optimize_to-do-list",
     "demoLink": "https://optimize-to-do-list.vercel.app/"
   },
-  "2": {
+  "4": {
     "title": "Mini Projects",
     "description": "This section showcases two interactive mini-projects: the Simon Game and Tic-Tac-Toe. These projects focus on logic, UI/UX, and JavaScript-driven interactivity.",
     "subPoints": [
@@ -40,10 +40,30 @@
         "des": "A classic two-player game simple yet.<br> Developed with JavaScript, featuring a responsive UI and intelligent game logic."
       },
       {
-        "title":"Give it a try!"
+        "title": "Give it a try!"
       }
     ],
     "codeLink": "https://github.com/Aryan-Lokhande/mini_projects",
     "demoLink": "https://aryan-lokhande.github.io/mini_projects/"
+  },
+  "2": {
+    "title": "AI-Powered Blog-App - MindScript",
+    "description": "<p><strong>MindScript</strong> is an intelligent blog creation platform built using the <b>MERN stack</b> and integrated with <b>Google Gemini API</b> to generate high-quality, AI-generated blog content.</p>\n  <p>Designed with seamless user experience in mind, users can easily log in and create engaging blog posts with just a few prompts—automating the content generation process while maintaining creative control.</p>\n <p>This project demonstrates our ability to integrate <b>AI capabilities</b> within full-stack applications, making content creation smarter, faster, and more efficient.</p>",
+    "subPoints": [
+      {
+        "title": "Admin Credential",
+        "des": "<ul>\n  <li><b>Username</b>: admin@mindscript.com</li>\n <li> <b>Password</b>: mindscript forever </li>"
+      },
+      {
+        "title": "Key Features",
+        "des": "<ul>\n  <li>📝 <b>CRUD Functionality</b>: Fully functional Create, Read, Update, and Delete operations on blogs and their comments.</li>\n  <li>🧠 <b>AI Text Generation</b>: Generate engaging blog content through prompt-based input using Google Gemini API.</li>\n  <li>👤<b>User Authentication</b>: Admin-protected access for content management and moderation.</li>\n</ul>"
+      },
+      {
+        "title": "Technologies Used",
+        "des": "<ul>\n <li>⚛️ <b>React.js</b>: For building a responsive and dynamic frontend.</li>\n  <li>🌐 <b>Node.js</b> & <b>Express.js</b>: To handle the backend server and API routes.</li>\n  <li>🗃️ <b>MongoDB</b>: For efficient blog data storage and retrieval.</li>\n  <li>🧠 <b>Google Gemini API</b>: To power the AI blog content generation feature.</li>\n  <li>🔐 <b>JWT Authentication</b>: Secure login with predefined credentials (admin@mindscript.com).</li>\n</ul>"
+      }
+    ],
+    "codeLink": "https://github.com/Aryan-Lokhande/MindScript_Blog-app",
+    "demoLink": "https://mind-script-blog-app.vercel.app"
   }
 }

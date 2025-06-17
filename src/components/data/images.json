@@ -10,11 +10,11 @@
     { "src": "/projImages/mindscript_2.png", "alt": "dashboard 1" },
     { "src": "/projImages/mindscript_3.png", "alt": "dashboard 2" }
   ],
-  "3": [
-    {
-      "src": "/projImages/todo-list.png","alt": "optimized todo"
-    }
+  "3": [{ "src": "/projImages/todo-list.png", "alt": "optimized todo" }],
 
+  "4": [
+    { "src": "/projImages/simon_game.png", "alt": "simon game" },
+    { "src": "/projImages/ttt-normal.png", "alt": "ttt1" },
+    { "src": "/projImages/ttt-win.png", "alt": "ttt2" }
   ]
 }
- 
