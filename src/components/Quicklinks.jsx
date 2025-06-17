@@ -19,6 +19,8 @@ const QuickLinks = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={link.name}
+              data-aos="fade-up"
+              data-aos-delay={(index + 1) * 200}
             >
               <img
                 src={link.img}

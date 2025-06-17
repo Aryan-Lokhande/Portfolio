@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import sortAlgo from "../assets/Sort_Algorithm.png";
-import miniPro from "../assets/mini_project.png";
+import mindscript from "../assets/MindScript_Blog-app.png";
 import todo from "../assets/todo.png";
 
 const projectsData = [
@@ -14,10 +14,10 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Mini Projects",
-    image: miniPro,
-    codeLink: "https://github.com/Aryan-Lokhande/mini_projects",
-    demoLink: "https://aryan-lokhande.github.io/mini_projects/",
+    title: "AI-Powered Blog-App",
+    image: mindscript,
+    codeLink: "https://github.com/Aryan-Lokhande/MindScript_Blog-app",
+    demoLink: "https://mind-script-blog-app.vercel.app/",
   },
   {
     id: 3,

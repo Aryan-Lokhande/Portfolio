@@ -11,6 +11,7 @@
   background: linear-gradient(45deg, #00bcd4, #006064);
   color: white;
   padding: 80px 0;
+  border-bottom: 5px solid rgb(206, 225, 246);
 }
 .profile-img {
   border: 5px solid #fff;
