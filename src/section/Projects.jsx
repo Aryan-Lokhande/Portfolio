@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import sortAlgo from "../assets/Sort_Algorithm.png";
 import mindscript from "../assets/MindScript_Blog-app.png";
