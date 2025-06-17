@@ -5,7 +5,7 @@
     { "src": "/projImages/Sort_Algo1.png", "alt": "Image 3" }
   ],
   "2": [
-    { "src": "/src/assets/MindScript_Blog-app.png", "alt": "Landing Page" },
+    { "src": "../src/assets/MindScript_Blog-app.png", "alt": "Landing Page" },
     { "src": "/projImages/mindscript_4.png", "alt": "Blog page" },
     { "src": "/projImages/mindscript_2.png", "alt": "dashboard 1" },
     { "src": "/projImages/mindscript_3.png", "alt": "dashboard 2" }
