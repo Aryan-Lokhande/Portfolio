@@ -10,7 +10,12 @@
     { "src": "/projImages/mindscript_2.png", "alt": "dashboard 1" },
     { "src": "/projImages/mindscript_3.png", "alt": "dashboard 2" }
   ],
-  "3": [{ "src": "/projImages/todo-list.png", "alt": "optimized todo" }],
+  "3": [
+    { "src": "/projImages/tracker2.png", "alt": "Exp-tracker" },
+    { "src": "/projImages/tracker3.png", "alt": "Exp-tracker" },
+    { "src": "/projImages/tracker1.png", "alt": "Exp-tracker" },
+    { "src": "/projImages/tracker4.png", "alt": "Exp-tracker" }
+  ],
 
   "4": [
     { "src": "/projImages/simon_game.png", "alt": "simon game" },

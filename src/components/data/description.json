@@ -13,39 +13,9 @@
       }
     ],
     "codeLink": "https://github.com/Aryan-Lokhande/Sort-Algorithm",
-    "demoLink": "https://aryan-lokhande.github.io/Sort-Algorithm/"
+    "demoLink": "https://aryan-lokhande.github.io/Sort-Algorithm"
   },
-  "3": {
-    "title": "Optimized To-Do List",
-    "description": "<p><strong>Optimized To-Do List</strong> is a lightweight task management application built using <b>NeutralinoJS</b>, offering an efficient alternative to traditional Electron-based apps.</p>\n  <p>With a minimal footprint of just <b>16MB</b>, it provides essential features like <b>adding, deleting, and marking tasks as done</b>, ensuring a simple yet productive user experience.</p>\n <p>Designed for speed and efficiency, this To-Do List reflects our ability to create <b>optimized and performance-driven applications</b> while maintaining a clean and intuitive UI.</p>",
-    "subPoints": [
-      {
-        "title": "Technologies Used",
-        "des": "<ul>\n  <li>💻 <b>NeutralinoJS</b>: A lightweight alternative to Electron for building cross-platform desktop apps.</li>\n  <li>🎨 <b>HTML</b> and <b>CSS</b>: To structure and style the application.</li>\n    <li>⚙️ <b>JavaScript</b>: To implement dynamic interactions and task management features.</li>\n  </ul>"
-      }
-    ],
-    "codeLink": "https://github.com/Aryan-Lokhande/Optimize_to-do-list",
-    "demoLink": "https://optimize-to-do-list.vercel.app/"
-  },
-  "4": {
-    "title": "Mini Projects",
-    "description": "This section showcases two interactive mini-projects: the Simon Game and Tic-Tac-Toe. These projects focus on logic, UI/UX, and JavaScript-driven interactivity.",
-    "subPoints": [
-      {
-        "title": "Simon Game",
-        "des": "A <b>memory-based game</b> where players must repeat an increasing sequence of lights and sounds.<br> Built using HTML, CSS, and JavaScript to enhance user interaction and logic-building."
-      },
-      {
-        "title": "Tic-Tac-Toe",
-        "des": "A classic two-player game simple yet.<br> Developed with JavaScript, featuring a responsive UI and intelligent game logic."
-      },
-      {
-        "title": "Give it a try!"
-      }
-    ],
-    "codeLink": "https://github.com/Aryan-Lokhande/mini_projects",
-    "demoLink": "https://aryan-lokhande.github.io/mini_projects/"
-  },
+
   "2": {
     "title": "AI-Powered Blog-App - MindScript",
     "description": "<p><strong>MindScript</strong> is an intelligent blog creation platform built using the <b>MERN stack</b> and integrated with <b>Google Gemini API</b> to generate high-quality, AI-generated blog content.</p>\n  <p>Designed with seamless user experience in mind, users can easily log in and create engaging blog posts with just a few prompts—automating the content generation process while maintaining creative control.</p>\n <p>This project demonstrates our ability to integrate <b>AI capabilities</b> within full-stack applications, making content creation smarter, faster, and more efficient.</p>",
@@ -65,5 +35,43 @@
     ],
     "codeLink": "https://github.com/Aryan-Lokhande/MindScript_Blog-app",
     "demoLink": "https://mind-script-blog-app.vercel.app"
+  },
+
+  "3": {
+    "title": "Expense-Tracker App",
+    "description": "<p>The <strong>Expense-Tracker</strong> is a web application designed to help users manage their personal finances effectively. It allows users to track their income and expenses, providing insights into their spending habits.</p>\n  <p>With a user-friendly interface, the app enables users to add, edit, and delete transactions, categorize expenses, and view summaries of their financial activities.</p>\n <p>This project demonstrates the ability to create a full-stack application with a focus on data management and user experience.</p>",
+    "subPoints": [
+      {
+        "title": "Key Features",
+        "des": "<ul>\n  <li>💰 <b>Transaction Management</b>: Add, edit, and delete income and expense transactions.</li>\n  <li>📊 <b>Financial Summaries</b>: View summaries of income, expenses, and balance over time.</li>\n  <li>🗂️ <b>Expense Categorization</b>: Categorize expenses for better tracking and analysis.</li>\n  <li>🔒 <b>User Authentication</b>: Secure login and registration for personalized financial management.</li>\n</ul>"
+      },
+      {
+        "title": "Technologies Used",
+        "des": "<ul>\n  <li>⚛️ <b>React.js</b>: For building a responsive and dynamic frontend.</li>\n  <li>🌐 <b>Node.js</b> & <b>Express.js</b>: To handle the backend server and API routes.</li>\n  <li>🗃️ <b>MongoDB</b>: For efficient transaction data storage and retrieval.</li>\n  <li>🔐 <b>JWT Authentication</b>: Secure user authentication and session management.</li>\n</ul>"
+      }
+    ],
+
+    "codeLink": "https://github.com/Aryan-Lokhande/Expense-Tracker",
+    "demoLink": "https://expense-tracker-one-phi-11.vercel.app"
+  },
+  
+  "4": {
+    "title": "Mini Projects",
+    "description": "This section showcases two interactive mini-projects: the Simon Game and Tic-Tac-Toe. These projects focus on logic, UI/UX, and JavaScript-driven interactivity.",
+    "subPoints": [
+      {
+        "title": "Simon Game",
+        "des": "A <b>memory-based game</b> where players must repeat an increasing sequence of lights and sounds.<br> Built using HTML, CSS, and JavaScript to enhance user interaction and logic-building."
+      },
+      {
+        "title": "Tic-Tac-Toe",
+        "des": "A classic two-player game simple yet.<br> Developed with JavaScript, featuring a responsive UI and intelligent game logic."
+      },
+      {
+        "title": "Give it a try!"
+      }
+    ],
+    "codeLink": "https://github.com/Aryan-Lokhande/mini_projects",
+    "demoLink": "https://aryan-lokhande.github.io/mini_projects"
   }
 }

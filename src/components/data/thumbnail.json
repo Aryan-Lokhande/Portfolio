@@ -15,9 +15,9 @@
   },
    "3" :
   {
-    "title": "Optimize Todo App",
-    "image": "/thumbnail/todo.png",
-    "codeLink": "https://github.com/Aryan-Lokhande/Optimize_to-do-list",
+    "title": "Expense Tracker App",
+    "image": "/thumbnail/tracker.png",
+    "codeLink": "https://github.com/Aryan-Lokhande/Expense-Tracker",
     "demoLink": "https://optimize-to-do-list.vercel.app/"
   }
 }
