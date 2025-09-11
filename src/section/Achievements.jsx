@@ -14,12 +14,14 @@ const achievementsData = [
     description:
       "Secured 1st place in a Competitive Programming Contest organized by Google Developer Groups on Campus at AISSMS College of Engineering.",
     icon: "fas fa-trophy ",
+    color: "gold",
   },
   {
     title: "2nd Rank - Blind and Reverse Coding Hackathon",
     description:
       "Secured 2nd place in the Blind and Reverse Coding Hackathon during College Techfest.",
     icon: "fas fa-trophy",
+    color: "silver",
   },
 ];
 
@@ -36,7 +38,8 @@ function Achievements() {
               <div className="card h-100 text-center techy-card">
                 <div className="card-body">
                   <i
-                    className={`${achievement.icon} fa-3x mb-3 techy-icon`}
+                    className={`${achievement.icon} fa-3x mb-3`}
+                    style={{ color: achievement.color || "#00e5ff" }}
                   ></i>
                   <h5 className="card-title techy-card-title">
                     {achievement.title}

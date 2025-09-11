@@ -34,8 +34,11 @@ function Home() {
               <div className="hero-desc mt-3">
                 Fuelled by coffee, code, and curiosity.
               </div>
-              <a href="#about" className="btn techy-btn mt-3">
-                Explore More
+              <a href="/general/Aryan_Lokhande_Resume.pdf" download="Aryan_Lokhande_Resume.pdf">
+                <button className="btn techy-btn mt-3 " >Download My Resume</button>
+              </a>
+              <a href="/general/Aryan_Lokhande_Resume.pdf" target="_blank">
+                <button class="btn techy-btn mt-3 ms-3">View My Resume</button>
               </a>
             </div>
           </div>

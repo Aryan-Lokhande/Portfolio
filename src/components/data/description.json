@@ -43,11 +43,11 @@
     "subPoints": [
       {
         "title": "Key Features",
-        "des": "<ul>\n  <li>💰 <b>Transaction Management</b>: Add, edit, and delete income and expense transactions.</li>\n  <li>📊 <b>Financial Summaries</b>: View summaries of income, expenses, and balance over time.</li>\n  <li>🗂️ <b>Expense Categorization</b>: Categorize expenses for better tracking and analysis.</li>\n  <li>🔒 <b>User Authentication</b>: Secure login and registration for personalized financial management.</li>\n</ul>"
+        "des": "<ul>\n  <li>💰 <b>Transaction Management</b>: Add, edit, and delete income and expense transactions.</li>\n  <li>📊 <b>Financial Summaries</b>: View summaries of income, expenses, and balance over time.</li>\n  <li>🗂️<b>Expense Categorization</b>: Categorize expenses for better tracking and analysis.</li>\n  <li>🔒<b>User Authentication</b>: Secure login and registration for personalized financial management.</li>\n</ul>"
       },
       {
         "title": "Technologies Used",
-        "des": "<ul>\n  <li>⚛️ <b>React.js</b>: For building a responsive and dynamic frontend.</li>\n  <li>🌐 <b>Node.js</b> & <b>Express.js</b>: To handle the backend server and API routes.</li>\n  <li>🗃️ <b>MongoDB</b>: For efficient transaction data storage and retrieval.</li>\n  <li>🔐 <b>JWT Authentication</b>: Secure user authentication and session management.</li>\n</ul>"
+        "des": "<ul>\n  <li>⚛️ <b>React.js</b>: For building a responsive and dynamic frontend.</li>\n  <li>🌐<b>Node.js</b> & <b>Express.js</b>: To handle the backend server and API routes.</li>\n  <li>🗃️ <b>MongoDB</b>: For efficient transaction data storage and retrieval.</li>\n  <li>🔐<b>JWT Authentication</b>: Secure user authentication and session management.</li>\n</ul>"
       }
     ],
 
