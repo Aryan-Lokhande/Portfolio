@@ -37,7 +37,9 @@
 
 .navbar-nav .nav-item .nav-link:hover {
   color: #fff; /* White on hover */
+  font-size: 1.1rem; /* Slightly larger on hover */
   border-bottom: 2px solid #00e5ff; /* Neon blue underline */
+  transition: font-size 0.3s ease;
 }
 
 /* Active link styling */
@@ -84,6 +86,7 @@
   font-size: 2rem;
   color: #00e5ff;
   margin-bottom: 20px;
+  font-weight: semibold;  
 }
 
 .quick-links-container {

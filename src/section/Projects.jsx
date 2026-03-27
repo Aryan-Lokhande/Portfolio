@@ -7,7 +7,7 @@ function Projects() {
   return (
     <section id="projects" className="projects-section py-5">
       <div className="container">
-        <h2 className="text-center mb-4">My Projects</h2>
+        <h2 className="text-center mb-4 fw-semibold">My Projects</h2>
         <div className="col-md-12">
           <div className="row justify-content-center">            
             {Object.entries(projectsData).map(([id, project]) => (
