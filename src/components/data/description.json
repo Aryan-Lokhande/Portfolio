@@ -1,36 +1,36 @@
 {
   "1": {
-    "title": "Sort Algorithm Visualization",
-    "description": "<p><strong>SortAlgorithm</strong> is a web-based application designed to provide real-time visualizations of popular sorting algorithms such as <b>Merge Sort</b> and <b>Quick Sort</b>.</p>\n  <p>These visualizations make it easier to understand, explore, and learn complex algorithms interactively.</p>\n <p>SortAlgorithm offers an engaging and interactive way to visualize how sorting algorithms work step-by-step. It's especially useful for students, developers, and anyone learning algorithms.</p>",
+    "title": "Yojana Saathi | Grievance & Scheme Management System",
+    "description": "<p><strong>Yojana Saathi</strong> is a full-stack grievance and government scheme management system built to digitize complaint registration, tracking, and resolution for citizens.</p>\n <p>Beyond standard grievance handling, the platform includes an <b>ML-based recommendation engine</b> that suggests relevant government schemes to users based on their profile, making public services more accessible and personalized.</p>\n <p>This project focuses on real-world civic-tech problems — reducing paperwork friction, automating communication, and using data to connect people with schemes they may not know they qualify for.</p>",
     "subPoints": [
       {
-        "title": "Outcome",
-        "des": "<ul>\n  <li>✅ Users can visualize how sorting algorithms work in real-time.</li>\n  <li>✅ Users can learn about the time complexity of each algorithm.</li>\n  <li>✅ A hands-on approach to deepen understanding of sorting techniques.</li>\n  </ul>"
+        "title": "Key Features",
+        "des": "<ul>\n <li><b>Grievance Management</b>: Citizens can register, track, and follow up on complaints through a structured workflow.</li>\n <li><b>ML-Based Scheme Recommendation</b>: A FastAPI-powered recommendation system suggests personalized government schemes based on user profile data.</li>\n <li><b>Automated Notifications</b>: Nodemailer sends real-time email updates on grievance status changes.</li>\n <li><b>File Uploads</b>: Cloudinary integration for scalable storage of supporting documents and proof attachments.</li>\n <li><b>User Authentication</b>: Secure login and role-based access for citizens and administrators.</li>\n</ul>"
       },
       {
         "title": "Technologies Used",
-        "des": "<ul>\n  <li>💻 <b>HTML</b>: To structure the content and layout.</li>\n  <li>🎨 <b>CSS</b>: To style the application and make it visually appealing.</li>\n    <li>⚙️ <b>JavaScript</b>: To implement dynamic sorting animations and interactions.</li>\n  </ul>"
+        "des": "<ul>\n <li><b>React.js</b>: For a responsive citizen-facing frontend.</li>\n <li><b>Node.js</b> & <b>Express.js</b>: Core backend server and REST API routes.</li>\n <li><b>MongoDB</b>: Storage for grievances, users, and scheme data.</li>\n <li><b>FastAPI</b> & <b>Python</b>: Powers the ML-based scheme recommendation microservice.</li>\n <li><b>Cloudinary</b>: Scalable storage for uploaded documents.</li>\n <li><b>Nodemailer</b>: Automated email notifications for status updates.</li>\n</ul>"
       }
     ],
-    "codeLink": "https://github.com/Aryan-Lokhande/Sort-Algorithm",
-    "demoLink": "https://aryan-lokhande.github.io/Sort-Algorithm"
+    "codeLink": "https://github.com/Aryan-Lokhande/SeralSeva",
+    "demoLink": "https://yojna-saathi.vercel.app"
   },
 
   "2": {
     "title": "AI-Powered Blog-App - MindScript",
-    "description": "<p><strong>MindScript</strong> is an intelligent blog creation platform built using the <b>MERN stack</b> and integrated with <b>Google Gemini API</b> to generate high-quality, AI-generated blog content.</p>\n  <p>Designed with seamless user experience in mind, users can easily log in and create engaging blog posts with just a few prompts—automating the content generation process while maintaining creative control.</p>\n <p>This project demonstrates our ability to integrate <b>AI capabilities</b> within full-stack applications, making content creation smarter, faster, and more efficient.</p>",
+    "description": "<p><strong>MindScript</strong> is an intelligent blog creation platform built using the <b>MERN stack</b> and integrated with <b>Google Gemini API</b> to generate high-quality, AI-generated blog content.</p>\n <p>Designed with seamless user experience in mind, users can easily log in and create engaging blog posts with just a few prompts—automating the content generation process while maintaining creative control.</p>\n <p>This project demonstrates our ability to integrate <b>AI capabilities</b> within full-stack applications, making content creation smarter, faster, and more efficient.</p>",
     "subPoints": [
       {
         "title": "Admin Credential",
-        "des": "<ul>\n  <li><b>Username</b>: admin@mindscript.com</li>\n <li> <b>Password</b>: mindscript forever </li>"
+        "des": "<ul>\n <li><b>Username</b>: admin@mindscript.com</li>\n <li> <b>Password</b>: mindscript forever </li>"
       },
       {
         "title": "Key Features",
-        "des": "<ul>\n  <li>📝 <b>CRUD Functionality</b>: Fully functional Create, Read, Update, and Delete operations on blogs and their comments.</li>\n  <li>🧠 <b>AI Text Generation</b>: Generate engaging blog content through prompt-based input using Google Gemini API.</li>\n  <li>👤<b>User Authentication</b>: Admin-protected access for content management and moderation.</li>\n</ul>"
+        "des": "<ul>\n <li> <b>CRUD Functionality</b>: Fully functional Create, Read, Update, and Delete operations on blogs and their comments.</li>\n <li> <b>AI Text Generation</b>: Generate engaging blog content through prompt-based input using Google Gemini API.</li>\n <li><b>User Authentication</b>: Admin-protected access for content management and moderation.</li>\n</ul>"
       },
       {
         "title": "Technologies Used",
-        "des": "<ul>\n <li>⚛️ <b>React.js</b>: For building a responsive and dynamic frontend.</li>\n  <li>🌐 <b>Node.js</b> & <b>Express.js</b>: To handle the backend server and API routes.</li>\n  <li>🗃️ <b>MongoDB</b>: For efficient blog data storage and retrieval.</li>\n  <li>🧠 <b>Google Gemini API</b>: To power the AI blog content generation feature.</li>\n  <li>🔐 <b>JWT Authentication</b>: Secure login with predefined credentials (admin@mindscript.com).</li>\n</ul>"
+        "des": "<ul>\n <li> <b>React.js</b>: For building a responsive and dynamic frontend.</li>\n <li> <b>Node.js</b> & <b>Express.js</b>: To handle the backend server and API routes.</li>\n <li><b>MongoDB</b>: For efficient blog data storage and retrieval.</li>\n <li> <b>Google Gemini API</b>: To power the AI blog content generation feature.</li>\n <li> <b>JWT Authentication</b>: Secure login with predefined credentials (admin@mindscript.com).</li>\n</ul>"
       }
     ],
     "codeLink": "https://github.com/Aryan-Lokhande/MindScript_Blog-app",
@@ -38,40 +38,37 @@
   },
 
   "3": {
-    "title": "Expense-Tracker App",
-    "description": "<p>The <strong>Expense-Tracker</strong> is a web application designed to help users manage their personal finances effectively. It allows users to track their income and expenses, providing insights into their spending habits.</p>\n  <p>With a user-friendly interface, the app enables users to add, edit, and delete transactions, categorize expenses, and view summaries of their financial activities.</p>\n <p>This project demonstrates the ability to create a full-stack application with a focus on data management and user experience.</p>",
+    "title": "Sort Algorithm Visualization",
+    "description": "<p><strong>SortAlgorithm</strong> is a web-based application designed to provide real-time visualizations of popular sorting algorithms such as <b>Merge Sort</b> and <b>Quick Sort</b>.</p>\n <p>These visualizations make it easier to understand, explore, and learn complex algorithms interactively.</p>\n <p>SortAlgorithm offers an engaging and interactive way to visualize how sorting algorithms work step-by-step. It's especially useful for students, developers, and anyone learning algorithms.</p>",
     "subPoints": [
       {
-        "title": "Key Features",
-        "des": "<ul>\n  <li>💰 <b>Transaction Management</b>: Add, edit, and delete income and expense transactions.</li>\n  <li>📊 <b>Financial Summaries</b>: View summaries of income, expenses, and balance over time.</li>\n  <li>🗂️<b>Expense Categorization</b>: Categorize expenses for better tracking and analysis.</li>\n  <li>🔒<b>User Authentication</b>: Secure login and registration for personalized financial management.</li>\n</ul>"
+        "title": "Outcome",
+        "des": "<ul>\n <li> Users can visualize how sorting algorithms work in real-time.</li>\n <li> Users can learn about the time complexity of each algorithm.</li>\n <li> A hands-on approach to deepen understanding of sorting techniques.</li>\n </ul>"
       },
       {
         "title": "Technologies Used",
-        "des": "<ul>\n  <li>⚛️ <b>React.js</b>: For building a responsive and dynamic frontend.</li>\n  <li>🌐<b>Node.js</b> & <b>Express.js</b>: To handle the backend server and API routes.</li>\n  <li>🗃️ <b>MongoDB</b>: For efficient transaction data storage and retrieval.</li>\n  <li>🔐<b>JWT Authentication</b>: Secure user authentication and session management.</li>\n</ul>"
+        "des": "<ul>\n <li><b>HTML</b>: To structure the content and layout.</li>\n <li><b>CSS</b>: To style the application and make it visually appealing.</li>\n <li><b>JavaScript</b>: To implement dynamic sorting animations and interactions.</li>\n </ul>"
+      }
+    ],
+    "codeLink": "https://github.com/Aryan-Lokhande/Sort-Algorithm",
+    "demoLink": "https://aryan-lokhande.github.io/Sort-Algorithm"
+  },
+
+  "4": {
+    "title": "Expense-Tracker App",
+    "description": "<p>The <strong>Expense-Tracker</strong> is a web application designed to help users manage their personal finances effectively. It allows users to track their income and expenses, providing insights into their spending habits.</p>\n <p>With a user-friendly interface, the app enables users to add, edit, and delete transactions, categorize expenses, and view summaries of their financial activities.</p>\n <p>This project demonstrates the ability to create a full-stack application with a focus on data management and user experience.</p>",
+    "subPoints": [
+      {
+        "title": "Key Features",
+        "des": "<ul>\n <li><b>Transaction Management</b>: Add, edit, and delete income and expense transactions.</li>\n <li><b>Financial Summaries</b>: View summaries of income, expenses, and balance over time.</li>\n <li><b>Expense Categorization</b>: Categorize expenses for better tracking and analysis.</li>\n <li><b>User Authentication</b>: Secure login and registration for personalized financial management.</li>\n</ul>"
+      },
+      {
+        "title": "Technologies Used",
+        "des": "<ul>\n <li><b>React.js</b>: For building a responsive and dynamic frontend.</li>\n <li><b>Node.js</b> & <b>Express.js</b>: To handle the backend server and API routes.</li>\n <li><b>MongoDB</b>: For efficient transaction data storage and retrieval.</li>\n <li><b>JWT Authentication</b>: Secure user authentication and session management.</li>\n</ul>"
       }
     ],
 
     "codeLink": "https://github.com/Aryan-Lokhande/Expense-Tracker",
     "demoLink": "https://expense-tracker-one-phi-11.vercel.app"
-  },
-  
-  "4": {
-    "title": "Mini Projects",
-    "description": "This section showcases two interactive mini-projects: the Simon Game and Tic-Tac-Toe. These projects focus on logic, UI/UX, and JavaScript-driven interactivity.",
-    "subPoints": [
-      {
-        "title": "Simon Game",
-        "des": "A <b>memory-based game</b> where players must repeat an increasing sequence of lights and sounds.<br> Built using HTML, CSS, and JavaScript to enhance user interaction and logic-building."
-      },
-      {
-        "title": "Tic-Tac-Toe",
-        "des": "A classic two-player game simple yet.<br> Developed with JavaScript, featuring a responsive UI and intelligent game logic."
-      },
-      {
-        "title": "Give it a try!"
-      }
-    ],
-    "codeLink": "https://github.com/Aryan-Lokhande/mini_projects",
-    "demoLink": "https://aryan-lokhande.github.io/mini_projects"
   }
 }

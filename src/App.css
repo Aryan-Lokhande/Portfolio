@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 70px; /* Offset to prevent fixed navbar from covering section content on scroll */
 }
 
 .medal {

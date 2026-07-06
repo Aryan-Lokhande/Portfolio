@@ -79,6 +79,7 @@
   background: linear-gradient(45deg, #003c5e, #006b84);
   padding: 40px 0;
   text-align: center;
+  overflow: hidden;
 }
 
 .quick-links-title {
@@ -86,7 +87,7 @@
   font-size: 2rem;
   color: #00e5ff;
   margin-bottom: 20px;
-  font-weight: semibold;  
+  font-weight: 800;  
 }
 
 .quick-links-container {
