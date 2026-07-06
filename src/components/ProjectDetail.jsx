@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
 import Button from "@mui/material/Button";
 import ButtonGroup from "@mui/material/ButtonGroup";
 import imagedetails from "./data/images.json";
@@ -28,9 +29,17 @@ function ProjectDetail() {
     navigate("/temp");
   }
 
-  function changeProject(e) {
-    setIdx(e.target.value);
-  }
+  const changeProject = (val) => {
+    setIdx(val);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const projectTabs = [
+    { value: "1", label: "One" },
+    { value: "2", label: "Two" },
+    { value: "3", label: "Three" },
+    { value: "4", label: "Four" },
+  ];
 
   if (!project) {
     return <h2 className="text-center mt-5">Project Not Found</h2>;
@@ -39,49 +48,38 @@ function ProjectDetail() {
   return (
     <div className="project-details-container">
       <div className="project-nav-buttons">
-        <Button variant="outlined" onClick={handleBack}>
-          Back
-        </Button>
-        {/* <Button variant="outlined" onClick={onTemp}>
-          Temp
-        </Button> */}
+        <motion.div
+          whileHover={{ x: -6 }}
+          transition={{ type: "spring", stiffness: 400, damping: 15 }}
+        >
+          <Button variant="outlined" onClick={handleBack}>
+            <i className="fas fa-arrow-left me-2"></i> Back
+          </Button>
+        </motion.div>
       </div>
 
       <div className="text-center project-btn-group">
-        <ButtonGroup aria-label="Basic button group">
-          <Button
-            value="1"
-            className={idx == 1 ? "active-btn" : ""}
-            variant={idx == 1 ? "contained" : "outlined"}
-            onClick={changeProject}
-          >
-            One
-          </Button>
-          <Button
-            value="2"
-            className={idx == 2 ? "active-btn" : ""}
-            variant={idx == 2 ? "contained" : "outlined"}
-            onClick={changeProject}
-          >
-            TWO
-          </Button>
-          <Button
-            value="3"
-            className={idx == 3 ? "active-btn" : ""}
-            variant={idx == 3 ? "contained" : "outlined"}
-            onClick={changeProject}
-          >
-            Three
-          </Button>
-          <Button
-            value="4"
-            className={idx == 4 ? "active-btn" : ""}
-            variant={idx == 4 ? "contained" : "outlined"}
-            onClick={changeProject}
-          >
-            Four
-          </Button>
-        </ButtonGroup>
+        <div className="custom-tab-container">
+          {projectTabs.map((tab) => {
+            const isActive = String(idx) === String(tab.value);
+            return (
+              <button
+                key={tab.value}
+                className={`custom-tab-btn ${isActive ? "active" : ""}`}
+                onClick={() => changeProject(tab.value)}
+              >
+                {isActive && (
+                  <motion.div
+                    layoutId="active-tab-glow"
+                    className="active-tab-bg"
+                    transition={{ type: "spring", stiffness: 350, damping: 25 }}
+                  />
+                )}
+                <span className="tab-text">{tab.label}</span>
+              </button>
+            );
+          })}
+        </div>
       </div>
 
       <div className="container project-title">

@@ -5,6 +5,7 @@ import {
   Route,
   createBrowserRouter,
   RouterProvider,
+  ScrollRestoration,
 } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
 import Home from "./section/Home";
@@ -34,6 +35,7 @@ function App() {
       path: "/project/:id",
       element: (
         <>
+          <ScrollRestoration />
           <ProjectDetail />
         </>
       ),

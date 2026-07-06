@@ -33,7 +33,7 @@ function Projects() {
         type: "spring",
         stiffness: 30, // Soft, gentle spring tension
         damping: 15,   // Smooth deceleration without aggressive bouncing
-        duration: 1.2, // Slow, premium feeling
+        duration: 1.2, 
       },
     },
   };
@@ -41,7 +41,7 @@ function Projects() {
   return (
     <section id="projects" className="projects-section py-5">
       <div className="container">
-        <h2 className="text-center mb-4 fw-semibold">My Projects</h2>
+        <h2 className="text-center mb-4 fw-bold">My Projects</h2>
         <div className="col-md-12">
           <motion.div 
             className="row justify-content-center"

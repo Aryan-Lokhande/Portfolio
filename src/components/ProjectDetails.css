@@ -125,38 +125,66 @@ body {
   margin-right: 5px;
 }
 
-/* Button Group */
+/* Button Group and Custom Tabs */
 .project-btn-group {
   display: flex;
   justify-content: center;
   margin: 20px 0;
 }
 
-.project-btn-group .MuiButton-root {
-  /* margin: 5px; */
-  background: rgba(255, 255, 255, 0.3);
-  color: white;
+.custom-tab-container {
+  display: inline-flex;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 6px;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  gap: 5px;
+  position: relative;
+}
+
+.custom-tab-btn {
+  position: relative;
+  background: transparent;
   border: none;
-  border-radius: 20px;
-  padding: 10px 20px;
+  color: #b2ebf2;
+  font-family: "Orbitron", sans-serif !important;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 8px 22px;
+  border-radius: 24px;
   cursor: pointer;
+  outline: none;
+  transition: color 0.3s ease;
 }
 
-.project-btn-group .MuiButton-root:hover {
-  background-color: #004d40;
+.custom-tab-btn * {
+  font-family: "Orbitron", sans-serif !important;
+}
+
+.custom-tab-btn:hover {
   color: #fff;
-  border: 1px solid #1c937f;
 }
 
-/* Active Button Styling */
-.project-btn-group .MuiButton-root.active-btn {
-  background: #004d40; /* Active background */
-  color: #fff;         /* Active text color */
-  box-shadow: 0px 4px 8px rgba(0, 77, 64, 0.5); /* Add a glowing effect */
-  border: 1px solid #004d40;
+.custom-tab-btn.active {
+  color: #fff;
   font-weight: bold;
-  transform: scale(1.05); /* Slightly enlarge the active button */
-  transition: all 0.3s ease;
+}
+
+.active-tab-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #004d40;
+  border-radius: 24px;
+  box-shadow: 0px 4px 15px rgba(0, 77, 64, 0.7);
+  z-index: 1;
+}
+
+.tab-text {
+  position: relative;
+  z-index: 2;
 }
 
 /* Sourec code button  */

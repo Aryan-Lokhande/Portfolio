@@ -48,7 +48,7 @@ function Home() {
       <section id="about" className="introduction-section py-5">
         <div className="container text-center">
           <h4 className="intro-heading">&lt;Hello World/&gt;</h4>
-          <h2 className="intro-title">Welcome to My Portfolio</h2>
+          <h2 className="intro-title fw-semibold">Welcome to My Portfolio</h2>
           <p className="intro-desc">
   Hi there, I'm Aryan, an IT student with a strong foundation in problem-solving and software development. Proficient in C++ for Data Structures and Algorithms, I have honed my skills by solving challenges on platforms like <b>LeetCode</b> and <b>HackerRank</b>. I actively participate in hackathons and competitive coding contests, securing the prestigious 1st&nbsp;
   <i className="fa-solid fa-trophy gold-medal"></i> position in <b>Code. Compete. Conquer.</b> hosted by GDGOC at AISSMS COE, and the 2nd&nbsp;
