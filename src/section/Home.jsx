@@ -9,6 +9,7 @@ import "aos/dist/aos.css";
 function Home() {
   useEffect(() => {
     AOS.init({ duration: 1000, once: true }); // Initialize AOS
+    document.title = "My Portfolio";
   }, []);
   return (
     <>

@@ -1,5 +1,4 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import Button from "@mui/material/Button";
@@ -16,6 +15,10 @@ function ProjectDetail() {
   const subPoint = project.subPoints;
 
   const navigate = useNavigate();
+
+  useEffect(() => {
+    document.title = `Project ${idx}`;
+  }, [idx]);
 
   const handleBack = () => {
     navigate("/");
