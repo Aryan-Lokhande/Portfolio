@@ -59,12 +59,15 @@
   font-weight: bold;
 }
 .hero-tagline {
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 2.1px;
   padding: 10px;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   color: #b2ebf2;
 }
 .hero-desc {
   font-size: 1.1rem;
+  letter-spacing: 1.3px;
   color: #e0f7fa;
 }
 .techy-btn {
