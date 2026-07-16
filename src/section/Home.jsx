@@ -15,6 +15,19 @@ function Home() {
     <>
       {/* Hero section start */}
       <section id="home" className="hero-section">
+        {/* Futuristic Background overlay */}
+        <div className="hero-grid-bg">
+          <div className="hero-vignette"></div>
+          <svg width="100%" height="100%" className="hero-grid-svg">
+            <defs>
+              <pattern id="dot-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+                <circle cx="1.5" cy="1.5" r="1.5" fill="rgba(255, 255, 255, 0.35)" />
+              </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#dot-grid)" />
+          </svg>
+        </div>
+
         <div className="container text-center">
           <div className="row align-items-center">
             <div className="col-md-5" data-aos="fade-right" data-aos-delay="200">
@@ -34,10 +47,10 @@ function Home() {
                 Fuelled by coffee, code, and curiosity.
               </div>
               <a href="/general/Aryan_Lokhande_Resume.pdf" download="Aryan_Lokhande_Resume.pdf">
-                <button className="btn techy-btn mt-3 " >Download My Resume</button>
+                <button className="btn techy-btn mt-3">Download Resume</button>
               </a>
               <a href="/general/Aryan_Lokhande_Resume.pdf" target="_blank">
-                <button class="btn techy-btn mt-3 ms-3">View My Resume</button>
+                <button className="btn techy-btn-outline mt-3 ms-3">View Resume</button>
               </a>
             </div>
           </div>

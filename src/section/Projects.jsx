@@ -39,8 +39,22 @@ function Projects() {
   };
 
   return (
-    <section id="projects" className="projects-section py-5">
-      <div className="container">
+    <section id="projects" className="projects-section py-5 position-relative overflow-hidden">
+      {/* Cyberpunk Grid Background */}
+      <div className="cyber-grid-bg">
+        <div className="cyber-vignette"></div>
+        <svg width="100%" height="100%" className="cyber-grid-svg">
+          <defs>
+            <pattern id="light-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+              <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(0, 188, 212, 0.15)" strokeWidth="1" />
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#light-grid)" />
+        </svg>
+        <div className="cyber-scanline"></div>
+      </div>
+
+      <div className="container position-relative" style={{ zIndex: 2 }}>
         <h2 className="text-center mb-4 fw-bold">My Projects</h2>
         <div className="col-md-12">
           <motion.div 
