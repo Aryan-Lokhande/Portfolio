@@ -1,8 +1,9 @@
 {
-  "3": [
-    { "src": "/projImages/Sort_Algorithm.png", "alt": "Image 1" },
-    { "src": "/projImages/Sort_Algo2.png", "alt": "Image 2" },
-    { "src": "/projImages/Sort_Algo1.png", "alt": "Image 3" }
+    "1": [
+    { "src": "/projImages/yojna-1.png", "alt": "First page" },
+    { "src": "/projImages/yojna-2.png", "alt": "Scheme list" },
+    { "src": "/projImages/yojna-3.png", "alt": "Third page" },
+    { "src": "/projImages/yojna-4.png", "alt": "Fourth page" }
   ],
   "2": [
     { "src": "/projImages/MindScript_Blog-app.png", "alt": "Landing Page" },
@@ -10,17 +11,21 @@
     { "src": "/projImages/mindscript_2.png", "alt": "dashboard 1" },
     { "src": "/projImages/mindscript_3.png", "alt": "dashboard 2" }
   ],
+  "3": [
+    { "src": "/projImages/Anime1.png", "alt": "Landing Page" },
+    { "src": "/projImages/Anime2.png", "alt": "Landing Page" },
+    { "src": "/projImages/Anime3.png", "alt": "Search Page" },
+    { "src": "/projImages/Anime4.png", "alt": "Landing Page" }
+  ],
   "4": [
     { "src": "/projImages/tracker2.png", "alt": "Exp-tracker" },
     { "src": "/projImages/tracker3.png", "alt": "Exp-tracker" },
     { "src": "/projImages/tracker1.png", "alt": "Exp-tracker" },
     { "src": "/projImages/tracker4.png", "alt": "Exp-tracker" }
   ],
-
-  "1": [
-    { "src": "/projImages/yojna-1.png", "alt": "First page" },
-    { "src": "/projImages/yojna-2.png", "alt": "Scheme list" },
-    { "src": "/projImages/yojna-3.png", "alt": "Third page" },
-    { "src": "/projImages/yojna-4.png", "alt": "Fourth page" }
+  "5": [
+    { "src": "/projImages/Sort_Algorithm.png", "alt": "Image 1" },
+    { "src": "/projImages/Sort_Algo2.png", "alt": "Image 2" },
+    { "src": "/projImages/Sort_Algo1.png", "alt": "Image 3" }
   ]
 }

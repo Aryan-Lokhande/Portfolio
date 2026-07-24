@@ -38,21 +38,21 @@
   },
 
   "3": {
-    "title": "Sort Algorithm Visualization",
-    "description": "<p><strong>SortAlgorithm</strong> is a web-based application designed to provide real-time visualizations of popular sorting algorithms such as <b>Merge Sort</b> and <b>Quick Sort</b>.</p>\n <p>These visualizations make it easier to understand, explore, and learn complex algorithms interactively.</p>\n <p>SortAlgorithm offers an engaging and interactive way to visualize how sorting algorithms work step-by-step. It's especially useful for students, developers, and anyone learning algorithms.</p>",
+    "title": "NexAnime | AI-Powered Anime Recommendation Platform",
+    "description": "<p><strong>NexAnime</strong> is a full-stack anime discovery platform built around a hybrid machine learning recommendation engine, split into three dedicated services: a React frontend, a Node.js API gateway, and a Python FastAPI ML server.</p>\n <p>The core of the project is a <b>hybrid recommendation system</b> that blends <b>popularity-based filtering</b> (an IMDB-style weighted rating formula with time decay), <b>content-based filtering</b> (TF-IDF + Nearest Neighbors on genre/synopsis/studio data), and <b>collaborative filtering</b> (Nearest Neighbors on a sparse user-rating matrix) — merged using a rank-based fusion algorithm.</p>\n <p>Models were trained offline in Jupyter notebooks on a 24,000+ title MyAnimeList dataset, then serialized and served through a dedicated inference microservice — mirroring how real-world ML systems separate offline training from online serving.</p>",
     "subPoints": [
       {
-        "title": "Outcome",
-        "des": "<ul>\n <li> Users can visualize how sorting algorithms work in real-time.</li>\n <li> Users can learn about the time complexity of each algorithm.</li>\n <li> A hands-on approach to deepen understanding of sorting techniques.</li>\n </ul>"
+        "title": "Key Features",
+        "des": "<ul>\n <li><b>Hybrid Recommendation Engine</b>: Combines content-based and collaborative filtering with weighted rank fusion for \"Watch these next\" suggestions.</li>\n <li><b>Smart Home Page Ranking</b>: Custom weighted-scoring formula (Bayesian average + normalized metrics + time decay) surfaces Top, Recent, and Classic anime.</li>\n <li><b>Fast Search & Filtering</b>: In-memory dataset querying by genre, rating, type, and source for instant results.</li>\n <li><b>Anime Detail Modal</b>: Rich metadata view with personalized recommendations for the selected title.</li>\n <li><b>Offline Model Training Pipeline</b>: Five structured Jupyter notebooks covering data exploration, cleaning, popularity-formula design, content-based modeling, and collaborative filtering.</li>\n</ul>"
       },
       {
         "title": "Technologies Used",
-        "des": "<ul>\n <li><b>HTML</b>: To structure the content and layout.</li>\n <li><b>CSS</b>: To style the application and make it visually appealing.</li>\n <li><b>JavaScript</b>: To implement dynamic sorting animations and interactions.</li>\n </ul>"
+        "des": "<ul>\n <li><b>React.js</b>: Fast, responsive frontend with a custom dark theme.</li>\n <li><b>Node.js</b> & <b>Express.js</b>: API gateway serving anime metadata and proxying ML requests.</li>\n <li><b>FastAPI</b> & <b>Python</b>: Dedicated ML microservice for recommendation inference.</li>\n <li><b>Scikit-learn</b>: TF-IDF vectorization and Nearest Neighbors models for content-based and collaborative filtering.</li>\n <li><b>Pandas & NumPy</b>: Data cleaning, weighted-score computation, and in-memory dataset handling.</li>\n <li><b>SciPy</b>: Sparse matrix representation for efficient collaborative-filtering computation.</li>\n <li><b>Jupyter Notebooks</b>: Offline model training, EDA, and algorithm experimentation.</li>\n</ul>"
       }
     ],
-    "codeLink": "https://github.com/Aryan-Lokhande/Sort-Algorithm",
-    "demoLink": "https://aryan-lokhande.github.io/Sort-Algorithm"
-  },
+    "codeLink": "https://github.com/Aryan-Lokhande/NexAnime",
+    "demoLink": "https://nexanime-mu.vercel.app"
+  },  
 
   "4": {
     "title": "Expense-Tracker App",
@@ -70,5 +70,22 @@
 
     "codeLink": "https://github.com/Aryan-Lokhande/Expense-Tracker",
     "demoLink": "https://expense-tracker-one-phi-11.vercel.app"
+  },
+
+  "5": {
+    "title": "Sort Algorithm Visualization",
+    "description": "<p><strong>SortAlgorithm</strong> is a web-based application designed to provide real-time visualizations of popular sorting algorithms such as <b>Merge Sort</b> and <b>Quick Sort</b>.</p>\n <p>These visualizations make it easier to understand, explore, and learn complex algorithms interactively.</p>\n <p>SortAlgorithm offers an engaging and interactive way to visualize how sorting algorithms work step-by-step. It's especially useful for students, developers, and anyone learning algorithms.</p>",
+    "subPoints": [
+      {
+        "title": "Outcome",
+        "des": "<ul>\n <li> Users can visualize how sorting algorithms work in real-time.</li>\n <li> Users can learn about the time complexity of each algorithm.</li>\n <li> A hands-on approach to deepen understanding of sorting techniques.</li>\n </ul>"
+      },
+      {
+        "title": "Technologies Used",
+        "des": "<ul>\n <li><b>HTML</b>: To structure the content and layout.</li>\n <li><b>CSS</b>: To style the application and make it visually appealing.</li>\n <li><b>JavaScript</b>: To implement dynamic sorting animations and interactions.</li>\n </ul>"
+      }
+    ],
+    "codeLink": "https://github.com/Aryan-Lokhande/Sort-Algorithm",
+    "demoLink": "https://aryan-lokhande.github.io/Sort-Algorithm"
   }
 }

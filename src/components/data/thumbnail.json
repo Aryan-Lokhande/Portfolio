@@ -12,9 +12,9 @@
     "demoLink": "https://mind-script-blog-app.vercel.app"
   },
   "3": {
-    "title": "Sort Algorithm Visualization",
-    "image": "/thumbnail/Sort_Algorithm.png",
-    "codeLink": "https://github.com/Aryan-Lokhande/Sort-Algorithm",
-    "demoLink": "https://aryan-lokhande.github.io/Sort-Algorithm/"
+    "title": "Nex Anime Recommendation ",
+    "image": "/thumbnail/Anime1.png",
+    "codeLink": "https://github.com/Aryan-Lokhande/NexAnime",
+    "demoLink": "https://nexanime-mu.vercel.app"
   }
 }
